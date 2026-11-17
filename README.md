@@ -11,14 +11,13 @@ e.g. 51 spectra comprising the Z004t6.0. The file names of individual spectra
 give the stellar mass and have the extension, .spec, e.g. *Z004t6.0m3.658.spec*. 
 
 – analogous isochrone directories, with the name giving the isochrone
-and stellar mass, so that a user can access individual *.spec files, rather than
+and stellar mass, so that a user can access individual spec files, rather than
 downloading the whole, large set of spectra for the given age and metallicity;
 
 – the IMFSALP directory containing the gzipped IMF-integrated spectrum
 for all 30 isochrones, with the Salpeter power-low exponent alpha=-2.35. The
 individual files have names of the isochrone with the extension, *.imfsalp*,
-e.g. *Z002t6.7R.imfsalp*. This directory is simply an example of what can be
-obtained with the accompanying Python program iso.integ.
+e.g. *Z002t6.7R.imfsalp*. 
 
 – the IMF1.35 directory, which contains the gzipped IMF-integrated spectrum
 of each isochrone assuming a top-heavy IMF with alpha=-1.35.
