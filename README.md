@@ -10,7 +10,7 @@ isochrone. Each contains the full spectrum of each mass-point of the isochrone,
 e.g. 51 spectra comprising the Z004t6.0. The file names of individual spectra
 give the stellar mass and have the extension, .spec, e.g. *Z004t6.0m3.658.spec*. 
 
-–- analogous isochrone directories, with the name giving the isochrone
+- analogous isochrone directories, with the name giving the isochrone
 and stellar mass, so that a user can access individual spec files, rather than
 downloading the whole, large set of spectra for the given age and metallicity;
 
