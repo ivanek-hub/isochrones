@@ -2,8 +2,9 @@
 The repository contains a library pf isochrone spectra. <br>
 It is composed ofseveral directories:
 
-- directory SPEC that contains several subdirectories, each for a given
-metallicity, age, and rotational status. For instance, directory
+- directory SPEC that contains several subdirectories, each containing
+a set of detailed spectra for a given metallicity, age, and rotational status.
+For instance, directory
 *iso_Z0004t6.7R* contain spectra for all mass-points of the isochrone
 with metallicity Z=0.004, log age=6.7 yrs, and with rotation. <br>
 So far, only two ages are included, t=6.0 and 6.7, but it is planned to
@@ -22,4 +23,7 @@ of each isochrone assuming a top-heavy IMF with alpha=-1.35.
 
 - directory *docs*: 
 contains file *manual.pdf*, the paper (Hubeny & Heap, 2023, arXiv:2309.01024)),
-serving as a detailed user's guide to the presented spectral libraries
+serving as a detailed user's guide to the presented spectral libraries.
+It provides a description of the physical basis and numerical procedures used
+to create the library. However, the section about obtaining the library (Sec.4)
+is no longer valid, and is replaced by the present site (so far only partly)
