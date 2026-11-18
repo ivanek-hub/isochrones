@@ -1,6 +1,6 @@
 # isochrones
-The repository contains a library pf isochrone spectra
-At this site, there are several types of files/directories:
+The repository contains a library pf isochrone spectra. <br>
+It is composed ofseveral directories:
 
 - directory SPEC that contains several subdirectories, each for a given
 metallicity, age, and rotational status. For instance, directory
