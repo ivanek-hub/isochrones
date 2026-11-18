@@ -7,9 +7,10 @@ a set of detailed spectra for a given metallicity, age, and rotational status.
 For instance, directory
 *iso_Z0004t6.7R* contain spectra for all mass-points of the isochrone
 with metallicity Z=0.004, log age=6.7 yrs, and with rotation. <br>
-So far, only two ages are included, t=6.0, 6.3, 6.5,  and 6.7,
-but it is planned to
-add more.
+So far, isochrone spectra  for only one metallicity, Z=0.004, with rotation,
+for all 5 ages, log t = 6.0, 6.3, 6.5, 6.7, and 7.0 are included.
+It is planned to eventually include all 30 isochrones described in the
+Hubeny & Heap (2023) paper. The paper is included in the directory *docs*.
 
 - the TABS directory, which contains a table of parameters of each isochrone
 in the library as taken or derived from the Geneva isochrones. 
@@ -27,4 +28,4 @@ contains file *manual.pdf*, the paper (Hubeny & Heap, 2023, arXiv:2309.01024)),
 serving as a detailed user's guide to the presented spectral libraries.
 It provides a description of the physical basis and numerical procedures used
 to create the library. However, the section about obtaining the library (Sec.4)
-is no longer valid, and is replaced by the present site (so far only partly)
+is no longer valid, and is replaced by the present site (so far only partly).
