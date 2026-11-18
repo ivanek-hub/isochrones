@@ -7,7 +7,8 @@ a set of detailed spectra for a given metallicity, age, and rotational status.
 For instance, directory
 *iso_Z0004t6.7R* contain spectra for all mass-points of the isochrone
 with metallicity Z=0.004, log age=6.7 yrs, and with rotation. <br>
-So far, only two ages are included, t=6.0 and 6.7, but it is planned to
+So far, only two ages are included, t=6.0, 6.3, 6.5,  and 6.7,
+but it is planned to
 add more.
 
 - the TABS directory, which contains a table of parameters of each isochrone
