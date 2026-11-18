@@ -2,17 +2,15 @@
 The repository contains a library pf isochrone spectra
 At this site, there are several types of files/directories:
 
-- the TAB directory, which contains a table of parameters of each isochrone
+- directory SPEC that contains several subdirectories, each for a given
+metallicity, age, and rotational status. For instance, directory
+*iso_Z0004t6.7R* contain spectra for all mass-points of the isochrone
+with metallicity Z=0.004, log age=6.7 yrs, and with rotation. <br>
+So far, only two ages are included, t=6.0 and 6.7, but it is planned to
+add more.
+
+- the TABS directory, which contains a table of parameters of each isochrone
 in the library as taken or derived from the Geneva isochrones. 
-
-- several gzipped tar directories for the 30 isochrones, labeled by the name of the
-isochrone. Each contains the full spectrum of each mass-point of the isochrone,
-e.g. 51 spectra comprising the Z004t6.0. The file names of individual spectra
-give the stellar mass and have the extension, .spec, e.g. *Z004t6.0m3.658.spec*. 
-
-- analogous isochrone directories, with the name giving the isochrone
-and stellar mass, so that a user can access individual spec files, rather than
-downloading the whole, large set of spectra for the given age and metallicity;
 
 - the IMFSALP directory containing the gzipped IMF-integrated spectrum
 for all 30 isochrones, with the Salpeter power-low exponent alpha=-2.35. The
